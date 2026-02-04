@@ -1,0 +1,58 @@
+ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from 'extracted_audio.wav':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Duration: 00:00:39.23, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [silencedetect @ 0x64c548214ac0] silence_start: 0.354
+[silencedetect @ 0x64c548214ac0] silence_end: 1.0025 | silence_duration: 0.6485
+[silencedetect @ 0x64c548214ac0] silence_start: 1.2795
+[silencedetect @ 0x64c548214ac0] silence_end: 1.98352 | silence_duration: 0.704021
+[silencedetect @ 0x64c548214ac0] silence_start: 3.79917
+[silencedetect @ 0x64c548214ac0] silence_end: 4.467 | silence_duration: 0.667833
+[silencedetect @ 0x64c548214ac0] silence_start: 6.94646
+[silencedetect @ 0x64c548214ac0] silence_end: 7.6151 | silence_duration: 0.668646
+[silencedetect @ 0x64c548214ac0] silence_start: 9.04777
+[silencedetect @ 0x64c548214ac0] silence_end: 9.65715 | silence_duration: 0.609375
+[silencedetect @ 0x64c548214ac0] silence_start: 12.2022
+[silencedetect @ 0x64c548214ac0] silence_end: 12.9567 | silence_duration: 0.754521
+[silencedetect @ 0x64c548214ac0] silence_start: 14.9678
+[silencedetect @ 0x64c548214ac0] silence_end: 15.7446 | silence_duration: 0.776792
+[silencedetect @ 0x64c548214ac0] silence_start: 18.283
+[silencedetect @ 0x64c548214ac0] silence_end: 19.5732 | silence_duration: 1.29021
+[silencedetect @ 0x64c548214ac0] silence_start: 21.9873
+[silencedetect @ 0x64c548214ac0] silence_end: 23.8132 | silence_duration: 1.82583
+[silencedetect @ 0x64c548214ac0] silence_start: 26.753
+[silencedetect @ 0x64c548214ac0] silence_end: 28.4776 | silence_duration: 1.72462
+[silencedetect @ 0x64c548214ac0] silence_start: 29.4841
+[silencedetect @ 0x64c548214ac0] silence_end: 30.1082 | silence_duration: 0.624125
+[silencedetect @ 0x64c548214ac0] silence_start: 30.7804
+[silencedetect @ 0x64c548214ac0] silence_end: 31.349 | silence_duration: 0.568542
+[silencedetect @ 0x64c548214ac0] silence_start: 33.4762
+[silencedetect @ 0x64c548214ac0] silence_end: 34.7505 | silence_duration: 1.27431
+[silencedetect @ 0x64c548214ac0] silence_start: 36.9412
+[silencedetect @ 0x64c548214ac0] silence_end: 37.9655 | silence_duration: 1.02429
+[silencedetect @ 0x64c548214ac0] silence_start: 38.3849
+size=N/A time=00:00:39.21 bitrate=N/A speed=1.17e+03x    
+video:0kB audio:7356kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[silencedetect @ 0x64c548214ac0] silence_end: 39.232 | silence_duration: 0.847083
